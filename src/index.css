@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn-primary {
+  background-color: #1a1a1a !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none !important;
+}
+
+.ant-menu-item-selected {
+  color: #1a1a1a !important;
+}
+
+.ant-menu-item::after {
+  border-bottom-color: #1a1a1a !important;
+}
